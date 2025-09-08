@@ -1,1 +1,1 @@
-add_executable(TD1_1 exo1.c)
+add_executable(TD1_exo1 exo1.c)
