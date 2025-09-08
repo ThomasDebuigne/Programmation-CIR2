@@ -1,0 +1,1 @@
+add_executable(TD1_1 exo1.c)
