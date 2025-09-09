@@ -30,7 +30,10 @@
 					"source" : "TD1",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -46,7 +49,10 @@
 					"name" : "TDs",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -57,6 +63,27 @@
 					"id" : "TD1_exo1::@b566191a3c274e145dff",
 					"jsonFile" : "target-TD1_exo1-Debug-a1cecb241f1bf7ae79a6.json",
 					"name" : "TD1_exo1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TD1_exo2::@b566191a3c274e145dff",
+					"jsonFile" : "target-TD1_exo2-Debug-96c5b11f6268d6c27416.json",
+					"name" : "TD1_exo2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TD1_exo3::@b566191a3c274e145dff",
+					"jsonFile" : "target-TD1_exo3-Debug-5276979a5cef3939c70d.json",
+					"name" : "TD1_exo3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TD1_exo4::@b566191a3c274e145dff",
+					"jsonFile" : "target-TD1_exo4-Debug-e335798f6e4bd0762910.json",
+					"name" : "TD1_exo4",
 					"projectIndex" : 0
 				}
 			]

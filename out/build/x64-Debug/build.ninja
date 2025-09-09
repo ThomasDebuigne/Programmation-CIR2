@@ -104,6 +104,114 @@ build TD1\TD1_exo1.exe: C_EXECUTABLE_LINKER__TD1_exo1_Debug TD1\CMakeFiles\TD1_e
   TARGET_IMPLIB = TD1\TD1_exo1.lib
   TARGET_PDB = TD1\TD1_exo1.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target TD1_exo2
+
+
+#############################################
+# Order-only phony target for TD1_exo2
+
+build cmake_object_order_depends_target_TD1_exo2: phony || .
+
+build TD1\CMakeFiles\TD1_exo2.dir\exo2.c.obj: C_COMPILER__TD1_exo2_unscanned_Debug C$:\Users\thoma_okcu2n8\POO-CPP-TDs\TD1\exo2.c || cmake_object_order_depends_target_TD1_exo2
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD1\CMakeFiles\TD1_exo2.dir
+  OBJECT_FILE_DIR = TD1\CMakeFiles\TD1_exo2.dir
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_exo2.dir\
+  TARGET_PDB = TD1\TD1_exo2.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TD1_exo2
+
+
+#############################################
+# Link the executable TD1\TD1_exo2.exe
+
+build TD1\TD1_exo2.exe: C_EXECUTABLE_LINKER__TD1_exo2_Debug TD1\CMakeFiles\TD1_exo2.dir\exo2.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD1\CMakeFiles\TD1_exo2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_exo2.dir\
+  TARGET_FILE = TD1\TD1_exo2.exe
+  TARGET_IMPLIB = TD1\TD1_exo2.lib
+  TARGET_PDB = TD1\TD1_exo2.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TD1_exo3
+
+
+#############################################
+# Order-only phony target for TD1_exo3
+
+build cmake_object_order_depends_target_TD1_exo3: phony || .
+
+build TD1\CMakeFiles\TD1_exo3.dir\exo3.c.obj: C_COMPILER__TD1_exo3_unscanned_Debug C$:\Users\thoma_okcu2n8\POO-CPP-TDs\TD1\exo3.c || cmake_object_order_depends_target_TD1_exo3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD1\CMakeFiles\TD1_exo3.dir
+  OBJECT_FILE_DIR = TD1\CMakeFiles\TD1_exo3.dir
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_exo3.dir\
+  TARGET_PDB = TD1\TD1_exo3.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TD1_exo3
+
+
+#############################################
+# Link the executable TD1\TD1_exo3.exe
+
+build TD1\TD1_exo3.exe: C_EXECUTABLE_LINKER__TD1_exo3_Debug TD1\CMakeFiles\TD1_exo3.dir\exo3.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD1\CMakeFiles\TD1_exo3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_exo3.dir\
+  TARGET_FILE = TD1\TD1_exo3.exe
+  TARGET_IMPLIB = TD1\TD1_exo3.lib
+  TARGET_PDB = TD1\TD1_exo3.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TD1_exo4
+
+
+#############################################
+# Order-only phony target for TD1_exo4
+
+build cmake_object_order_depends_target_TD1_exo4: phony || .
+
+build TD1\CMakeFiles\TD1_exo4.dir\exo4.c.obj: C_COMPILER__TD1_exo4_unscanned_Debug C$:\Users\thoma_okcu2n8\POO-CPP-TDs\TD1\exo4.c || cmake_object_order_depends_target_TD1_exo4
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD1\CMakeFiles\TD1_exo4.dir
+  OBJECT_FILE_DIR = TD1\CMakeFiles\TD1_exo4.dir
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_exo4.dir\
+  TARGET_PDB = TD1\TD1_exo4.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TD1_exo4
+
+
+#############################################
+# Link the executable TD1\TD1_exo4.exe
+
+build TD1\TD1_exo4.exe: C_EXECUTABLE_LINKER__TD1_exo4_Debug TD1\CMakeFiles\TD1_exo4.dir\exo4.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD1\CMakeFiles\TD1_exo4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_exo4.dir\
+  TARGET_FILE = TD1\TD1_exo4.exe
+  TARGET_IMPLIB = TD1\TD1_exo4.lib
+  TARGET_PDB = TD1\TD1_exo4.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -134,6 +242,18 @@ build TD1_exo1: phony TD1\TD1_exo1.exe
 
 build TD1_exo1.exe: phony TD1\TD1_exo1.exe
 
+build TD1_exo2: phony TD1\TD1_exo2.exe
+
+build TD1_exo2.exe: phony TD1\TD1_exo2.exe
+
+build TD1_exo3: phony TD1\TD1_exo3.exe
+
+build TD1_exo3.exe: phony TD1\TD1_exo3.exe
+
+build TD1_exo4: phony TD1\TD1_exo4.exe
+
+build TD1_exo4.exe: phony TD1\TD1_exo4.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -149,7 +269,7 @@ build all: phony TD1\all
 #############################################
 # Folder: C:/Users/thoma_okcu2n8/POO-CPP-TDs/out/build/x64-Debug/TD1
 
-build TD1\all: phony TD1\TD1_exo1.exe
+build TD1\all: phony TD1\TD1_exo1.exe TD1\TD1_exo2.exe TD1\TD1_exo3.exe TD1\TD1_exo4.exe
 
 # =============================================================================
 # Built-in targets
