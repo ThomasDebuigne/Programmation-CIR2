@@ -16,6 +16,6 @@ int main(void) {
 	}
 
 	for (int i = 0; i <= 10; i++) {
-		cout << "Resultat de " << a << "*" << i << " = " << a*i << endl;
+		cout << "Resultat de " << a << "*" << i << " = " << a * i << endl;
 	}
 }
